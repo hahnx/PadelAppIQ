@@ -1,0 +1,4 @@
+<menu id="MainMenu">
+    <menu-item id="item_1" label="Game view" />
+    <menu-item id="item_2" label="Set view" />
+</menu>

@@ -1,0 +1,13 @@
+<layout id="MainLayout">
+	<drawable id="Standings"/>
+	<label id="sets" x="center" y="top" text="Sets" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Gfx.FONT_SMALL"/>
+	<label id="homeSets" x="25%" y="top" text="0" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Gfx.FONT_SMALL"/>
+	<label id="awaySets" x="75%" y="top" text="0" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Gfx.FONT_SMALL"/>
+    
+	<label id="matches" x="center" y="20" text="Games" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Gfx.FONT_SMALL"/>
+	<label id="homeGames" x="25%" y="20" text="0" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Gfx.FONT_SMALL"/>
+	<label id="awayGames" x="75%" y="20" text="0" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Gfx.FONT_SMALL"/>
+    
+    <label id="homePoints" x="25%" y="center" text="0" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Gfx.FONT_LARGE"/>
+    <label id="awayPoints" x="75%" y="center" text="0" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Gfx.FONT_LARGE"/>
+</layout>
