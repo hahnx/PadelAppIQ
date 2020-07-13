@@ -39,15 +39,17 @@ class PadelAppDelegate extends WatchUi.BehaviorDelegate {
 	       if ((session == null) || (session.isRecording() == false)) {
 	           session = ActivityRecording.createSession({          // set up recording session
 	                 :name=>"Generic",                              // set session name
-	                 :sport=>ActivityRecording.SPORT_GENERIC,       // set sport type
-	                 :subSport=>ActivityRecording.SUB_SPORT_GENERIC // set sub sport type
+	                 :sport=>ActivityRecording.SPORT_TENNIS,       // set sport type
+	                 :subSport=>ActivityRecording.SUB_SPORT_MATCH // set sub sport type
 	           });
 	           session.start();                                     // call start session
+	           System.println("Test");
 	       }
 	       else if ((session != null) && session.isRecording()) {
 	           session.stop();                                      // stop the session
 	           session.save();                                      // save the session
-	           session = null;                                      // set session control variable to null
+	           session = null;    
+	           System.println("stop");                                  // set session control variable to null
 	           
 	       }
 	   }
